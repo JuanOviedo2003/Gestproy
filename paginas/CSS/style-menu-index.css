@@ -1,0 +1,82 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+
+/*CABECERA ONE*/
+
+/*Cabecera logotipo y nombre de la pagina en la que se encuentre*/
+
+.cabecera_imagotipo-nombre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #666666;
+}
+
+.imagotipo{
+    background-color: cadetblue;
+    height: 160px;
+    margin: 0 2em;
+}
+
+.nombre_pagina{
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+}
+
+.text-menu__navegation{
+    text-align: center;
+    width: 169px;
+    padding: 6px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CABECERA TWO*/
+
+/*Estilos de los links que van siempre debajo de la cabecera*/
+
+
+.menu__navegacion{
+    background-color: #747474;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.menu-a{
+    background-color: #747474;
+    padding: 12px 0px; 
+}
+
+.menu-a:hover{
+    background-color: #818181;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+    padding: 12px 12px; 
+}
