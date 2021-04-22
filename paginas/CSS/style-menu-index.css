@@ -8,6 +8,11 @@
 	outline: none;
 }
 
+body{
+    background-color: #FFFCEA;
+    height: 449px;
+}
+
 
 /*CABECERA ONE*/
 
@@ -16,6 +21,7 @@
 .cabecera_imagotipo-nombre{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #666666;
 }
@@ -79,4 +85,25 @@ a{
     text-decoration: none; 
     color: white;
     padding: 12px 12px; 
+}
+/* CONTENIDO */
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+
+/*FOOTER*/
+.footer{
+    height: 100%;
+}
+.footer_parragraph{
+    text-align: center;
+    background-color: #747474;
+    /* height: 62.2px; */
+    height: 100%;
+    padding: 10px 0;
 }

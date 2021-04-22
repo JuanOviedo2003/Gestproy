@@ -1,0 +1,13 @@
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 39% 0;
+}
+
+.bienvenido_gestproy{
+    text-align: center;
+    margin-bottom: 1%;
+}
